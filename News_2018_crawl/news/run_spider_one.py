@@ -9,10 +9,11 @@ import datetime
 
 def run():
 
-    sr.lpush('abroad_seeking_alpha_efts:start_urls',
-             "https://seekingalpha.com/etfs-and-funds/etf-analysis?page=1"
+
+    sr.lpush('cfi_industry:start_urls',
+             "http://industry.cfi.cn/BCA0A4127A4128A5063.html",
              )
-    os.system("scrapy crawl abroad_seeking_alpha_efts")
+    os.system("scrapy crawl cfi_industry")
 
 if __name__ == '__main__':
 
