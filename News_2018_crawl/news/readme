@@ -1,4 +1,0 @@
-1. spider.name
-   == mongodb News数据库 集合名
-   == 爬取log.txt文件名
-2. settings.py 中 WEB_MAP 的 爬虫名-网址中文名 的映射字典要即时更新
